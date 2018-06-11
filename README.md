@@ -21,6 +21,7 @@ What's new compared to "Spring-example":
 * Usage of init & destroy-methods.
 * Usage of HashMap set method in bean (Online.java)
 * Usage of ArrayList in constructor @ Henkilo bean (Henkilo.java)
+
 <b> UML-structure of the "project":</b>
 
 <a href="https://imgbb.com/"><img src="https://image.ibb.co/iChgf8/spring_uml.png" alt="spring_uml" border="0"></a>
