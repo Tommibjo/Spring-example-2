@@ -2,12 +2,12 @@
 
 Small spring project showcase.
 
-Created with Eclipse Java EE IDE Oxygen.3a
-Simple Apache Maven (4.0.0) Spring framework project.
-With following dependencies:
-Spring-core 5.0.6
-Spring-beans 5.0.6
-Spring-context 5.0.
+* Created with Eclipse Java EE IDE Oxygen.3a
+* Simple Apache Maven (4.0.0) Spring framework project.
+* With following dependencies:
+* Spring-core 5.0.6
+* Spring-beans 5.0.6
+* Spring-context 5.0.
 
 Displaying the usage of:
 * ApplicationContext (Beanfactory container) -> TextInterface.java
