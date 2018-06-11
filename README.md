@@ -31,8 +31,7 @@ Prints out "list of online shoppers - with further (shopping cart & payment) det
 
 
 
-Online: false
------------
+Online false
 Henkilo : 
  STT: 1111556
  etunimi: Leon
