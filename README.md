@@ -10,10 +10,12 @@ Small spring project showcase.
 * Spring-context 5.0.
 
 Displaying the usage of:
-* ApplicationContext (Beanfactory container) -> TextInterface.java
-* How to set properties of bean in Spring Bean Configuration XML file via -> Customer.java
-* How to set bean constructor arguments in Spring Bean Configuration XML file via -> PurchaseOrder.java
-* How to do simple dependency injection (injecting Terms dependency to Customer class) -> dependent: Customer.java - dependency: terms.java
+* ApplicationContext (Beanfactory container) 
+* How to set properties of bean in Spring Bean Configuration XML file via 
+* How to set bean constructor arguments in Spring Bean Configuration XML file via 
+* How to do simple dependency injection (injecting Terms dependency to Customer class)
+
+What's new compared to "Spring-example":
 
 
 <b> UML-structure of the "project":</b>
