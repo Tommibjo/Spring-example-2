@@ -10,10 +10,10 @@ Spring-beans 5.0.6
 Spring-context 5.0.6
 Displaying the usage of:
 
-ApplicationContext (Beanfactory container) -> TextInterface.java
-How to set properties of bean in Spring Bean Configuration XML file via -> Customer.java
-How to set bean constructor arguments in Spring Bean Configuration XML file via -> PurchaseOrder.java
-How to do simple dependency injection (injecting Terms dependency to Customer class) -> dependent: Customer.java - dependency: terms.java
+*ApplicationContext (Beanfactory container) -> TextInterface.java
+*How to set properties of bean in Spring Bean Configuration XML file via -> Customer.java
+*How to set bean constructor arguments in Spring Bean Configuration XML file via -> PurchaseOrder.java
+*How to do simple dependency injection (injecting Terms dependency to Customer class) -> dependent: Customer.java - dependency: terms.java
 
 <b> UML-structure of the "project"</b>
 <a href="https://imgbb.com/"><img src="https://image.ibb.co/iChgf8/spring_uml.png" alt="spring_uml" border="0"></a>
