@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="henkilo" class="com.juurivuohi.testailua.Henkilo"
+		init-method="kaynnistyessa" destroy-method="havitessa">
+		<constructor-arg index="0" value="200322988"></constructor-arg>
+		<constructor-arg index="1" value="Toni"></constructor-arg>
+		<constructor-arg index="2" value="Keskinen"></constructor-arg>
+		<constructor-arg index="3">
+			<list>
+				<value>T-paita</value>
+				<value>Housut</value>
+				<value>Sukat</value>
+				<value>Aurinkorasva</value>
+			</list>
+		</constructor-arg>
+		<constructor-arg index="4" ref="laskutustiedot">
+		</constructor-arg>
+	</bean>
+
+	<bean id="henkilo2" class="com.juurivuohi.testailua.Henkilo"
+		init-method="kaynnistyessa" destroy-method="havitessa">
+		<constructor-arg index="0" value="1111556"></constructor-arg>
+		<constructor-arg index="1" value="Mikael"></constructor-arg>
+		<constructor-arg index="2" value="Lummelampi"></constructor-arg>
+		<constructor-arg index="3">
+			<list>
+				<value>Lippalakki</value>
+				<value>Sukat</value>
+				<value>Boxerit</value>
+				<value>Aurinkolasit</value>
+			</list>
+		</constructor-arg>
+		<constructor-arg index="4" ref="laskutustiedot2">
+		</constructor-arg>
+	</bean>
+
+	<bean id="laskutustiedot"
+		class="com.juurivuohi.testailua.LaskutusTiedot">
+		<constructor-arg index="0"
+			value="Arinatie 5 A 13, 01620 Vantaa"></constructor-arg>
+		<constructor-arg index="1" value="60"></constructor-arg>
+		<constructor-arg index="2" value="-586"></constructor-arg>
+	</bean>
+
+	<bean id="laskutustiedot2"
+		class="com.juurivuohi.testailua.LaskutusTiedot">
+		<constructor-arg index="0"
+			value="Kuulakuja 2 B 3, 00250 Helsinki"></constructor-arg>
+		<constructor-arg index="1" value="45"></constructor-arg>
+		<constructor-arg index="2" value="-150"></constructor-arg>
+	</bean>
+
+	<bean id="online" class="com.juurivuohi.testailua.Online">
+		
+	<property name="online">
+		<map>
+			<entry key-ref="henkilo" value="true"></entry>
+			<entry key-ref="henkilo2" value="false" ></entry>
+		</map>
+	</property>
+	</bean>
+
+</beans>
