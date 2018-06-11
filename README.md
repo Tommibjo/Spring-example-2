@@ -29,39 +29,39 @@ What's new compared to "Spring-example":
 Prints out "list of online shoppers - with further (shopping cart & payment) details", like so:
 
 
-> ONLINE: true
-> -----------
-> Henkilo : 
-> STT: 200322988
-> etunimi: Tommi
-> sukunimi: Björklund
->
-> ostoskori:
-> T-paita
-> Housut
-> Sukat
-> Aurinkorasva
->
-> LaskutusTiedot: 
-> osoite: Arinatie 5 A 13, 01620 Vantaa
-> maksuaika: 60
-> saldo: -586
->
->
-> ONLINE: false
-> -----------
-> Henkilo : 
-> STT: 1111556
-> etunimi: Leon
-> sukunimi: Björklund
->
-> ostoskori:
-> Lippalakki
-> Sukat
-> Boxerit
-> Aurinkolasit
+'ONLINE: true
+-----------
+Henkilo : 
+ STT: 200322988
+ etunimi: Tommi
+ sukunimi: Björklund
 
-> LaskutusTiedot: 
-> osoite: Kuulakuja 2 B 3, 00250 Helsinki
-> maksuaika: 45
-> saldo: -150
+ostoskori:
+T-paita
+Housut
+Sukat
+Aurinkorasva
+
+LaskutusTiedot: 
+ osoite: Arinatie 5 A 13, 01620 Vantaa
+ maksuaika: 60
+ saldo: -586
+
+
+ONLINE: false
+-----------
+Henkilo : 
+ STT: 1111556
+ etunimi: Leon
+ sukunimi: Björklund
+
+ostoskori:
+Lippalakki
+Sukat
+Boxerit
+Aurinkolasit
+
+LaskutusTiedot: 
+ osoite: Kuulakuja 2 B 3, 00250 Helsinki
+ maksuaika: 45
+ saldo: -150'
