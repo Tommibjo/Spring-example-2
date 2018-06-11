@@ -29,26 +29,9 @@ What's new compared to "Spring-example":
 Prints out "list of online shoppers - with further (shopping cart & payment) details", like so:
 
 
-'ONLINE: true
------------
-Henkilo : 
- STT: 200322988
- etunimi: Tommi
- sukunimi: Björklund
-
-ostoskori:
-T-paita
-Housut
-Sukat
-Aurinkorasva
-
-LaskutusTiedot: 
- osoite: Arinatie 5 A 13, 01620 Vantaa
- maksuaika: 60
- saldo: -586
 
 
-ONLINE: false
+Online: false
 -----------
 Henkilo : 
  STT: 1111556
