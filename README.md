@@ -25,3 +25,43 @@ What's new compared to "Spring-example":
 <b> UML-structure of the "project":</b>
 
 <a href="https://imgbb.com/"><img src="https://image.ibb.co/iChgf8/spring_uml.png" alt="spring_uml" border="0"></a>
+
+Prints out "list of online shoppers - with further (shopping cart & payment) details", like so:
+
+
+> ONLINE: true
+> -----------
+> Henkilo : 
+> STT: 200322988
+> etunimi: Tommi
+> sukunimi: Björklund
+>
+> ostoskori:
+> T-paita
+> Housut
+> Sukat
+> Aurinkorasva
+>
+> LaskutusTiedot: 
+> osoite: Arinatie 5 A 13, 01620 Vantaa
+> maksuaika: 60
+> saldo: -586
+>
+>
+> ONLINE: false
+> -----------
+> Henkilo : 
+> STT: 1111556
+> etunimi: Leon
+> sukunimi: Björklund
+>
+> ostoskori:
+> Lippalakki
+> Sukat
+> Boxerit
+> Aurinkolasit
+
+> LaskutusTiedot: 
+> osoite: Kuulakuja 2 B 3, 00250 Helsinki
+> maksuaika: 45
+> saldo: -150
