@@ -1,8 +1,9 @@
-# Spring-example-2
+# Here I was going through "cave of programming" -courses.
+
 
 Small spring project showcase.
 
-Project source (Variables i.e.) in FINNISH Language.
+Project source in finnish Language.
 
 * Created with Eclipse Java EE IDE Oxygen.3a
 * Simple Apache Maven (4.0.0) Spring framework project.
