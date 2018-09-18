@@ -1,7 +1,7 @@
 # Here I was going through "cave of programming" -courses.
 
 
-Small spring project showcase.
+.. UML chart doesn't have any parameters or methods to been seen. ¯\_(ツ)_/¯
 
 Project source in finnish Language.
 
